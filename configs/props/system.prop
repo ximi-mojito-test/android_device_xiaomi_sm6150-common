@@ -1,9 +1,6 @@
 # Bluetooth
 vendor.bluetooth.soc=cherokee
 
-# Blur
-ro.surface_flinger.supports_background_blur=0
-
 # Camera
 log.tag.CHIUSECASE=ERROR
 persist.sys.cam.skip_detach_image=true
@@ -66,6 +63,8 @@ debug.sf.early.app.duration=24000000
 debug.sf.earlyGl.sf.duration=30000000
 debug.sf.earlyGl.app.duration=24000000
 debug.sf.hwc.min.duration=8400000
+ro.sf.blurs_are_expensive=1
+ro.surface_flinger.supports_background_blur=1
 
 # WiFi
 wifi.interface=wlan0

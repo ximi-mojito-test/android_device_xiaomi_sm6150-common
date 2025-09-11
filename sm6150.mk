@@ -36,6 +36,9 @@ PRODUCT_PACKAGES += \
     libtinycompress \
     sound_trigger.primary.sm6150
 
+# Audio
+TARGET_EXCLUDES_AUDIOFX := true
+
 # Audio XML
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
